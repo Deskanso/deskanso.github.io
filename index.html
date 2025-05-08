@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deskanso - Wyroby drewniane - Cennik Drewnianych Zegarów</title>
+    <style>
+        body {
+            font-family: 'Dosis', serif;
+            background-color: #f5f1e6;
+            color: #3a3226;
+            margin: 0;
+            padding: 20px;
+            background-image: url('https://www.transparenttextures.com/patterns/cream-paper.png');
+        }
+        
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            border: 5px solid #ffffff;
+            border-image: url('https://www.transparenttextures.com/patterns/scribble-light.png') 30 round;
+            padding: 30px;
+            background-color: #fff9e6;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+        }
+        
+        header {
+            text-align: center;
+            border-bottom: 2px #8b5a2b;
+            padding-bottom: 20px;
+            margin-bottom: 30px;
+        }
+        
+        h1 {
+            font-size: 2.0em;
+            color: #5c3c10;
+            text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.2);
+            font-weight: normal;
+            letter-spacing: 2px;
+            margin-bottom: 10px;
+        }
+        
+        .subtitle {
+            font-style: bold;
+            font-size: 1.2em;
+            color: #7a5c3a;
+        }
+		
+        
+        h2 {
+            font-size: 1.8em;
+            color: #5c3c10;
+            border-bottom: 1px solid #d4b483;
+            padding-bottom: 5px;
+            margin-top: 30px;
+            font-weight: normal;
+        }
+        
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+        
+        th, td {
+            padding: 12px 15px;
+            text-align: left;
+            border-bottom: 1px solid #d4b483;
+			border-radius: 3px;
+        }
+        
+        th {
+            background-color: #e8d9b5;
+            font-weight: bold;
+            color: #5c3c10;
+        }
+        
+        tr:hover {
+            background-color: #f5ebd3;
+        }
+        
+        .price {
+            font-weight: bold;
+            color: #8b5a2b;
+        }
+        
+        .color-swatch {
+            display: inline-block;
+            width: 20px;
+            height: 20px;
+            border: 1px solid #ccc;
+            margin-right: 10px;
+            vertical-align: middle;
+        }
+        
+        footer {
+            text-align: center;
+            margin-top: 40px;
+            font-style: italic;
+            color: #7a5c3a;
+            border-top: 2px dashed #8b5a2b;
+            padding-top: 20px;
+        }
+        
+        .ornament {
+            font-size: 1.5em;
+            color: #8b5a2b;
+            letter-spacing: 5px;
+        }
+        
+        .photo-gallery {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+            margin: 20px 0;
+            justify-content: center;
+        }
+        
+        .photo-item {
+            width: 200px;
+            text-align: center;
+        }
+        
+        .photo-item img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            border: 3px solid #d4b483;
+            box-shadow: 0 0 5px rgba(0,0,0,0.2);
+        }
+		.photo-item-2 {
+            width: 250px;
+            text-align: center;
+        }
+        
+        .photo-item-2 img {
+            width: 100%;
+            height: 400px;
+            object-fit: cover;
+            border: 3px solid #d4b483;
+            box-shadow: 0 0 5px rgba(0,0,0,0.2);
+        }
+		
+		.photo-logo img {
+            width: 200px;
+            height: 200px; 
+			object-fit: cover;
+        }
+        
+        .photo-item p {
+            margin-top: 5px;
+            font-size: 0.9em;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="photo-logo">
+                <img src="Logo.png" alt="Logo">
+            </div>
+            <div class="subtitle">Drewniane dzieła pana Andrzeja</div>
+        </header>
+		
+        <section>
+            <h2>Rozmiary i ceny zegarów</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Średnica zegara okrągłego</th>
+                        <th>Przekątna zegara rombu</th>
+                        <th>Cena*</th>
+                    </tr>
+                </thead>
+                <tbody>
+				        <tr>
+                        <td>-</td>
+                        <td>24 cm</td>
+                        <td class="price">80 zł</td>
+                    </tr>
+                    <tr>
+                        <td>20 cm</td>
+                        <td>31 cm</td>
+                        <td class="price">100 zł</td>
+                    </tr>
+					                    <tr>
+                        <td>26 cm</td>
+                        <td>39 cm</td>
+                        <td class="price">150 zł</td>
+                    </tr>
+                    <tr>
+                        <td>32 cm</td>
+                        <td>48 cm</td>
+                        <td class="price">200 zł</td>
+                    </tr>
+                    <tr>
+                        <td>40 cm</td>
+                        <td>58 cm</td>
+                        <td class="price">300 zł</td>
+                    </tr>
+                    <tr>
+                        <td>50 cm</td>
+                        <td>70 cm</td>
+                        <td class="price">400 zł</td>
+                    </tr>
+					                    <tr>
+                        <td>60 cm</td>
+                        <td>85 cm</td>
+                        <td class="price">550 zł</td>
+                    </tr>
+                    <tr>
+                        <td>Na zamówienie zegary okrągłe 70 cm i większe</td>
+                        <td>Indywidualna</td>
+                        <td class="price">Indywidualna</td>
+                    </tr>
+					</table>
+					<tr>
+                        <td>* Do ceny zegara należy doliczyć koszt wysyłki zależny od rozmiaru zegara. Odbiór osobisty możliwy w Łodzi i okolicach. Wszystkie zegary są wyposażone w cichy mechanizm.</td>
+                    </tr>
+                </tbody>
+        </section>
+		
+		        <section>
+            <h2>Kształty</h2>
+            <div class="photo-gallery">
+                <div class="photo-item">
+                    <img src="kształty/okrąg.jpg" alt="okrąg">
+                    <p>Okrąg</p>
+                </div>
+                <div class="photo-item">
+                    <img src="kształty/romb.jpg" alt="romb">
+                    <p>Romb</p>
+                </div>
+        </section>
+        
+        <section>
+            <h2>Kolory ram*</h2>
+            <div class="photo-gallery">
+                <div class="photo-item">
+                    <img src="ramy/czerń.jpg" alt="Czarna rama zegara">
+                    <p>Czarna rama</p>
+                </div>
+				<div class="photo-item">
+			<img src="ramy/biel.jpg" alt="Biała rama zegara">
+			<p>Biała rama</p>
+			</div>		
+                <div class="photo-item">
+                    <img src="ramy/złoto.jpg" alt="Złota rama zegara">
+                    <p>Złota rama</p>
+                </div>
+            </div>
+			<p>* Ramy są wykonane z drewna i malowane na wybrany kolor. Ramy białe i złote są dostępne na zamówienie.</p>
+        </section>
+        
+        <section>
+            <h2>Rodzaje drewna</h2>
+            <div class="photo-gallery">
+                <div class="photo-item">
+                    <img src="rodzaje_drewna/dąb.jpg" alt="Zegar z dębu">
+                    <p>Dąb</p>
+                </div>
+                <div class="photo-item">
+                    <img src="rodzaje_drewna/orzech.jpg" alt="Zegar z orzecha">
+                    <p>Orzech</p>
+                </div>
+                <div class="photo-item">
+                    <img src="rodzaje_drewna/jabłoń.jpg" alt="Zegar z jabloni">
+                    <p>Jabłoń</p>
+                </div>
+				
+                <div class="photo-item">
+                   <img src="rodzaje_drewna/czeczota.jpg" alt="Zegar topola z czeczotą">
+                    <p>Topola z czeczotą</p>
+                </div>
+				<div class="photo-item">
+                    <img src="rodzaje_drewna/klon.jpg" alt="Zegar topola z czeczotą">
+                    <p>Klon</p>
+                </div>
+            </div>
+        </section>
+		
+		</section>
+		
+			<section>
+            <h2>Jak kupić zegar?</h2>
+  <p><b>1. Stacjonarnie w Łodzi:</b> zadzwoń do nas na <b><span style="color: maroon">516 794 114</b></span>.  Obserwuj też naszą stronę <b><span style="color: maroon">Deskanso - Wyroby drewniane</b></span> na Facebooku - informujemy o wszystkich jarmarkach, targach i innych wydarzeniach, na których można nas spotkać. </p>
+<p><b>2. Z wysyłką: wyślij SMS na numer <b><span style="color: maroon">516 794 114</b></span></b> lub napisz nam wiadomość prywatną na Facebooku: <b><span style="color: maroon">Deskanso - Wyroby drewniane</b></span>. </p>
+        </section>	
+		
+			<section>
+            <h2>Przykładowe realizacje - zegary okągłe</h2>
+            <div class="photo-gallery">
+                <div class="photo-item-2">
+                    <img src="zegary_okrągłe/60 cm, jabłoń.jpg" alt="Czarna rama zegara">
+                    <p>60 cm, jabłoń</p>
+                </div>
+                <div class="photo-item-2">
+                    <img src="zegary_okrągłe/50 cm, jabłoń.jpg" alt="Złota rama zegara">
+                    <p>40 cm, jabłoń</p>
+                </div>
+				<div class="photo-item-2">
+                    <img src="zegary_okrągłe/50 cm, klon.jpg" alt="Złota rama zegara">
+                    <p>50 cm, klon</p>
+                </div>
+				<div class="photo-item">
+                    <img src="zegary_okrągłe/40 cm, dąb.jpg" alt="Złota rama zegara">
+                    <p>40 cm, dąb</p>
+                </div>
+								<div class="photo-item">
+                    <img src="zegary_okrągłe/40 cm, orzech.jpg" alt="Złota rama zegara">
+                    <p>40 cm, orzech</p>
+                </div>
+								<div class="photo-item">
+                    <img src="zegary_okrągłe/40 cm, orzech (2).jpg" alt="Złota rama zegara">
+                    <p>40 cm, orzech</p>
+                </div>
+				                <div class="photo-item">
+                    <img src="zegary_okrągłe/50 cm, czeczota.jpg" alt="Złota rama zegara">
+                    <p>50 cm, czeczota</p>
+                </div>
+								<div class="photo-item">
+                    <img src="zegary_okrągłe/32 cm, dąb.jpg" alt="Złota rama zegara">
+                    <p>32 cm, dąb</p>
+                </div>
+								<div class="photo-item">
+                    <img src="zegary_okrągłe/50 cm, klon (2).jpg" alt="Złota rama zegara">
+                    <p>50 cm, klon</p>
+                </div>
+				                <div class="photo-item">
+                    <img src="zegary_okrągłe/32 cm, orzech.jpg" alt="Złota rama zegara">
+                    <p>32 cm, orzech</p>
+                </div>
+				<div class="photo-item">
+                    <img src="zegary_okrągłe/26 cm, dąb.jpg" alt="Złota rama zegara">
+                    <p>26 cm, dąb</p>
+                </div>
+        </section>
+			<section>
+            <h2>Przykładowe realizacje - romby</h2>
+            <div class="photo-gallery">
+                <div class="photo-item">
+                    <img src="zegary_romby/58 cm, jabłoń.jpg" alt="Czarna rama zegara">
+                    <p>58 cm, jabłoń</p>
+                </div>
+				<div class="photo-item">
+                    <img src="zegary_romby/70 cm, klon.jpg" alt="Czarna rama zegara">
+                    <p>70 cm, klon</p>
+                </div>
+					 <div class="photo-item">
+                    <img src="zegary_romby/70 cm, orzech (2).jpg" alt="Czarna rama zegara">
+                    <p>70 cm, orzech</p>
+                </div>
+                <div class="photo-item">
+                    <img src="zegary_romby/49 cm, jabłoń.jpg" alt="Złota rama zegara">
+                    <p>49 cm, jabłoń</p>
+                </div>
+				<div class="photo-item">
+                    <img src="zegary_romby/49 cm, dąb.jpg" alt="Złota rama zegara">
+                    <p>49 cm, dąb</p>
+                </div>
+				<div class="photo-item">
+                    <img src="zegary_romby/70 cm, czeczota.jpg" alt="Czarna rama zegara">
+                    <p>85 cm, czeczota</p>
+                </div>
+                <div class="photo-item">
+                    <img src="zegary_romby/49 cm, orzech.jpg" alt="Złota rama zegara">
+                    <p>49 cm, orzech</p>
+                </div>
+				<div class="photo-item">
+                    <img src="zegary_romby/26, dąb (2).jpg" alt="Złota rama zegara">
+                    <p>26 cm, dąb</p>
+                </div>
+
+        </section>
+        
+        <footer>
+            <p>Telefon: 516 794 114</p>
+			<p>Facebook: Deskanso - Wyroby drewniane</p>
+			<p>Każdy zegar jest wyjątkowy i niepowtarzalny. Zegary są wykonywane na zamówienie i będą się różnić od tych przedstawionych na zdjęciach.</p>
+        </footer>
+    </div>
+</body>
+</html>
